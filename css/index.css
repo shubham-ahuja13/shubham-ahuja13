@@ -1,0 +1,37 @@
+.img-mobile {
+    display: block;
+}
+
+.img-desktop {
+    display: none;
+}
+
+.my-navbar {
+    top: unset !important; 
+    bottom: 0; 
+    position: fixed;
+}
+
+#resume-section {
+    padding-top: 25px;
+}
+
+@media only screen and (min-width: 768px) {
+    .img-mobile {
+        display: none;
+    }
+    
+    .img-desktop {
+        display: block;
+    }
+
+    .my-navbar {
+        top: 0 !important; 
+        bottom: unset; 
+        position: relative;
+    }
+
+    #resume-section {
+        padding-top: initial;
+    }
+}
