@@ -48,6 +48,7 @@ html {
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    scroll-behavior: smooth;
 }
 
 article,
@@ -11374,7 +11375,7 @@ h5,
     position: absolute;
     left: 0;
     right: 0;
-    bottom: 120px;
+    bottom: 14%;
     z-index: 2;
 }
 
@@ -11760,6 +11761,9 @@ h5,
     .ftco-partner .partner {
         padding: 0 70px;
         margin-bottom: 40px;
+    }
+    .mouse {
+        bottom: 24%;
     }
 }
 
